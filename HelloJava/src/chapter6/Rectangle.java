@@ -1,5 +1,9 @@
 package chapter6;
 
+/*
+ * OBJECTS
+*/
+
 public class Rectangle {
 
     private double length;

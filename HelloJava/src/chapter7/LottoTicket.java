@@ -30,7 +30,7 @@ public class LottoTicket {
         return ticket;
     }
 
-    public static void printTicket(int ticket[]){
+    public static void printTicket(int ticket[]){   
         for(int i=0; i<LENGTH; i++){
             System.out.print(ticket[i] + " | ");
         }  

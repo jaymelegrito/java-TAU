@@ -29,6 +29,10 @@ public class Person {
     public void setGender(String gender){
         this.gender = gender;
     }
+
+    public Person(String name){
+        System.out.println("In 2nd constructor, name is set.");
+    }
     
 }
 

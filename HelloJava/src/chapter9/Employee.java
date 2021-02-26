@@ -20,4 +20,10 @@ public class Employee extends Person {
     public void setTitle(String title){
         this.title = title;
     }
+
+    public Employee(){
+        super("boyle");
+        System.out.println("In employee default constructor");
+        
+    }
 }

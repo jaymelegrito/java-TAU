@@ -33,6 +33,10 @@ public class Person {
     public Person(String name){
         System.out.println("In 2nd constructor, name is set.");
     }
+
+    public Person(){
+        
+    }
     
 }
 

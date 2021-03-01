@@ -4,7 +4,10 @@ public class InheritanceTester {
 
     public static void main(String[] args){
 
-        Employee employee = new Employee();
+        Mother mom = new Mother();
+        mom.setName("Rachel");
+
+        System.out.println(mom.getName() + " is a " + mom.getGender());
 
     }
     
